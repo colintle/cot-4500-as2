@@ -30,9 +30,9 @@ x_value = 7.3
 p1 = newton(x_value, xi[:2], [diff[:2] for diff in last])
 p2 = newton(x_value, xi[:3], [diff[:3] for diff in last])
 p3 = newton(x_value, xi[:4], [diff[:4] for diff in last])
-print(p1)
-print(p2)
-print(p3)
+print(f"Degree 1: {p1}")
+print(f"Degree 2: {p2}")
+print(f"Degree 3: {p3}")
 print()
 
 #Question 4
